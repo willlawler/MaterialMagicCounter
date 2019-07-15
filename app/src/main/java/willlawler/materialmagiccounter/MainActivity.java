@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity {
             players[i] = new Player();
             players[i].playerHealth = 20;
             players[i].playerName = "Test" + Integer.toString(i);
-
-
             Log.i("Message" ,players[i].playerName + " : "+players[i].playerHealth);
         }
 
